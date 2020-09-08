@@ -1,0 +1,9 @@
+format: null
+handle: mediumThumb
+height: 600
+interlace: none
+mode: crop
+name: '400x600 Thumb'
+position: center-center
+quality: 82
+width: 400

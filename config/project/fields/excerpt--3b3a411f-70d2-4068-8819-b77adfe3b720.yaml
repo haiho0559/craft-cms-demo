@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: a1d97235-5ea6-4676-a1ce-18941f453b7e
+handle: excerpt
+instructions: ''
+name: Excerpt
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

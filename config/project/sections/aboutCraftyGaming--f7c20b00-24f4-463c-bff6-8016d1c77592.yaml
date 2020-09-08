@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: aboutCraftyGaming
+name: 'About Crafty Gaming'
+propagationMethod: all
+siteSettings:
+  a396edee-fb18-4ab0-99f2-9d7727c01555:
+    enabledByDefault: true
+    hasUrls: true
+    template: about/_entry
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: d192c1de-4837-4866-95f4-9e5d0c6942fe
+type: structure

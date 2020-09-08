@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: drinks
+name: Drinks
+propagationMethod: all
+siteSettings:
+  a396edee-fb18-4ab0-99f2-9d7727c01555:
+    enabledByDefault: true
+    hasUrls: true
+    template: drinks/_entry
+    uriFormat: '{parent.uri}/{slug}'
+type: channel

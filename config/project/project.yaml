@@ -1,8 +1,13 @@
-dateModified: 1599531038
+dateModified: 1599557472
 email:
   fromEmail: hai.ho@opswat.com
   fromName: 'Craft CMS Demo'
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
