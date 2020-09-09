@@ -1,0 +1,88 @@
+field: a3cbc9e5-90e6-4e9c-a53a-4663268e0ba3
+fieldLayouts:
+  953eef2a-1333-4d94-baf9-309e460f7fb7:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 05bb269d-7c0a-4b70-b6ca-76cebfb42f39
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 78fefbcc-a275-452b-a2bb-333032c9273b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  05bb269d-7c0a-4b70-b6ca-76cebfb42f39:
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsTitle
+    instructions: ''
+    name: 'Steps Title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  78fefbcc-a275-452b-a2bb-333032c9273b:
+    contentColumnType: text
+    fieldGroup: null
+    handle: stepsContent
+    instructions: ''
+    name: 'Steps Content'
+    searchable: true
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Step Instructions'
+                -
+                  - handle
+                  - stepInstructions
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - multiline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+      maxRows: ''
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: recipeStep
+name: 'Recipe Steps'
+sortOrder: 4

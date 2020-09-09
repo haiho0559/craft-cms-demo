@@ -1,11 +1,11 @@
 enableVersioning: true
-handle: news
-name: News
+handle: recipes
+name: Recipes
 propagationMethod: all
 siteSettings:
   a396edee-fb18-4ab0-99f2-9d7727c01555:
     enabledByDefault: true
     hasUrls: true
-    template: news\_entry
-    uriFormat: '{parent.uri}/{slug}'
+    template: recipes/_entry
+    uriFormat: 'recipes/{slug}'
 type: channel
